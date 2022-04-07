@@ -1,0 +1,7 @@
+.router {
+  padding: 10px;
+}
+
+.router > a {
+  margin: 0 8px;
+}

@@ -1,0 +1,55 @@
+.routes {
+  margin: 0;
+  padding: 14px;
+  list-style-type: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.routes h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.routes h2 + p {
+  margin-top: 5px;
+}
+
+.routes p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.tag {
+  display: inline-block;
+  height: 18px;
+  padding: 0 6px;
+  margin: 0 6px;
+  font-size: 12px;
+  border-radius: 4px;
+  line-height: 18px;
+  font-weight: normal;
+  color: #fff;
+  background-color: rgb(255, 200, 137);
+}
+
+.routes .routes {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.route {
+  margin: 10px 0;
+}
+
+.route-block {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #e2e2e2;
+}
+
+.routes .routes .route-block {
+  background-color: #f1f1f1;
+}
