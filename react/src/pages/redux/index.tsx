@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Page from '@/components/Page'
+import Page from '@/components/Layout'
 import useForceUpdate from '@/hooks/useForceUpdate';
 import store from './store';
 import { Action, Dispatch } from './my-redux';

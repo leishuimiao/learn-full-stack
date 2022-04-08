@@ -1,5 +1,5 @@
 import { Component, PropsWithChildren, useState } from 'react';
-import Page from '@/components/Page'
+import Page from '@/components/Layout'
 import { Link, Router, Route, Switch, RouteFuncProps, withRouter, useHistory, useLoaction, useMatch, useParams, Redirect, Prompt } from './my-router';
 import { createBrowserHistory } from 'history';
 import './index.css';

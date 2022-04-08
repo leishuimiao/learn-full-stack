@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, routes } from '@/routers'
 import { useNavigate, generatePath } from 'react-router-dom'
-import Page from '@/components/Page';
+import Page from '@/components/Layout';
 import './index.css'
 
 type Paths = string[];

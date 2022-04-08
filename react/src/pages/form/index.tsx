@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Form, Field, FormValues } from '@/components/Form'
-import Page from '@/components/Page';
+import Page from '@/components/Layout';
 import './App.css';
 
 function App() {

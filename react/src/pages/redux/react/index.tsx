@@ -1,4 +1,4 @@
-import Page from '@/components/Page'
+import Page from '@/components/Layout'
 import React, { Component, PropsWithChildren } from 'react'
 import { connect, ConnectedProps, useDispatch, useSelector } from 'react-redux'
 import { Dispatch } from '../my-redux'

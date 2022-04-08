@@ -25,34 +25,39 @@ const routes: Route[] = [
     children: [
       {
         element: <Lazy path="/index" />,
-        name: '首页-默认路由',
+        name: 'index『默认路由』',
         index: true
       },
       {
         path: 'form',
         element: <Lazy path="/form" />,
-        name: 'form-表单'
+        name: 'form『表单』'
       },
       {
         path: 'redux',
-        name: 'redux',
+        name: 'redux『状态管理』',
         children: [
           {
             element: <Lazy path="/redux" />,
-            name: 'redux-状态管理',
+            name: 'redux『默认路由』',
             index: true
           },
           {
             path: 'react',
             element: <Lazy path="/redux/react" />,
-            name: 'redux-react'
+            name: 'redux-react『react桥接』'
           }
         ]
       },
       {
         path: 'router/*',
         element: <Lazy path="/router" />,
-        name: 'router-路由'
+        name: 'router『路由』'
+      },
+      {
+        path: 'source',
+        element: <Lazy path="/source" />,
+        name: 'react『源码』'
       }
     ]
   }
