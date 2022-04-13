@@ -7,7 +7,7 @@ export default function Source() {
   const divElement = useRef<HTMLDivElement>(null)
   
   useEffect(() => {
-    MyReactDOM.render(Element, divElement.current)
+    MyReactDOM.render(<Element />, divElement.current)
   }, [])
   
 
